@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[AV's Ph.S Journal]]></title>
+  <link href="http://alevax.github.io/atom.xml" rel="self"/>
+  <link href="http://alevax.github.io/"/>
+  <updated>2014-09-22T12:43:57+02:00</updated>
+  <id>http://alevax.github.io/</id>
+  <author>
+    <name><![CDATA[Ing. Alessandro Vasciaveo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
