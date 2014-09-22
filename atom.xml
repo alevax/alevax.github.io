@@ -4,7 +4,7 @@
   <title><![CDATA[AV's Ph.D Journal]]></title>
   <link href="http://alevax.github.io/atom.xml" rel="self"/>
   <link href="http://alevax.github.io/"/>
-  <updated>2014-09-22T18:32:53+02:00</updated>
+  <updated>2014-09-22T19:25:10+02:00</updated>
   <id>http://alevax.github.io/</id>
   <author>
     <name><![CDATA[Ing. Alessandro Vasciaveo]]></name>
@@ -14,13 +14,23 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Primo Post Di Prova]]></title>
-    <link href="http://alevax.github.io/blog/2014/09/22/primo-post-di-prova/"/>
-    <updated>2014-09-22T18:01:37+02:00</updated>
-    <id>http://alevax.github.io/blog/2014/09/22/primo-post-di-prova</id>
-    <content type="html"><![CDATA[<h3>Hi everybody!</h3>
+    <title type="html"><![CDATA[Logistic Map]]></title>
+    <link href="http://alevax.github.io/blog/2014/04/22/logistic-map/"/>
+    <updated>2014-04-22T18:01:37+02:00</updated>
+    <id>http://alevax.github.io/blog/2014/04/22/logistic-map</id>
+    <content type="html"><![CDATA[<script type="math/tex; mode=display"> x(k+1) = \lambda x(k)[1-x(k)] </script>
 
-<p>I want to say $$ b = c<sup>2</sup> \sum{3\frac{4}} $$</p>
+<ul>
+  <li><script type="math/tex"> k </script>, population growth cycle</li>
+  <li><script type="math/tex"> \lambda </script>, linked to the rate of population growth</li>
+  <li><script type="math/tex">% &lt;![CDATA[
+ 0 <= x(k) <= 1  %]]&gt;</script>, state variable proportional to the number of individuals in the population</li>
+</ul>
+
+<p>In order for <script type="math/tex"> x </script> to remain bounded, it should be <script type="math/tex">% &lt;![CDATA[
+ 0<=\lambda<=4  %]]&gt;</script>.</p>
+
+<p>The logistic law describes well the dynamics of evolving populations where there is a growth per cycle proportional to <script type="math/tex"> \lambda x(k) </script> with a corrective negative term (feedback) <script type="math/tex"> -\lambda x^2(k) </script> which is proportional to the square of the size already attained by the population.</p>
 ]]></content>
   </entry>
   

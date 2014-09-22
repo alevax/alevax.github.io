@@ -9,8 +9,7 @@
   <meta name="author" content="Ing. Alessandro Vasciaveo">
 
   
-  <meta name="description" content="Hi everybody! I want to say $$ b = c2 \sum{3\frac{4}} $$
-">
+  <meta name="description" content=", population growth cycle , linked to the rate of population growth , state variable proportional to the number of individuals in the population In &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -36,8 +35,8 @@
     MathJax.Hub.Config({
       jax: ["input/TeX", "output/HTML-CSS"],
       tex2jax: {
-        inlineMath: [ ['$', '$'], ["\\(", "\\)"] ],
-        displayMath: [ ['$$', '$$'], ["\\[", "\\]"] ],
+        inlineMath: [ ["\\(", "\\)"], [ '$$$','$$$'] ],
+        displayMath: [ ['$$$', '$$$'], ["\\[", "\\]"] ],
         processEscapes: true,
         skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
       }
@@ -112,7 +111,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/09/22/primo-post-di-prova/">Primo Post Di Prova</a></h1>
+      <h1 class="entry-title"><a href="/blog/2014/04/22/logistic-map/">Logistic Map</a></h1>
     
     
       <p class="meta">
@@ -121,16 +120,26 @@
 
 
 
-<time class='entry-date' datetime='2014-09-22T18:01:37+02:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>22</span><span class='date-suffix'>nd</span>, <span class='date-year'>2014</span></span> <span class='time'>6:01 pm</span></time>
+<time class='entry-date' datetime='2014-04-22T18:01:37+02:00'><span class='date'><span class='date-month'>Apr</span> <span class='date-day'>22</span><span class='date-suffix'>nd</span>, <span class='date-year'>2014</span></span> <span class='time'>6:01 pm</span></time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><h3>Hi everybody!</h3>
+  <div class="entry-content"><script type="math/tex; mode=display"> x(k+1) = \lambda x(k)[1-x(k)] </script>
 
-<p>I want to say $$ b = c<sup>2</sup> \sum{3\frac{4}} $$</p>
+<ul>
+  <li><script type="math/tex"> k </script>, population growth cycle</li>
+  <li><script type="math/tex"> \lambda </script>, linked to the rate of population growth</li>
+  <li><script type="math/tex">% <![CDATA[
+ 0 <= x(k) <= 1  %]]></script>, state variable proportional to the number of individuals in the population</li>
+</ul>
+
+<p>In order for <script type="math/tex"> x </script> to remain bounded, it should be <script type="math/tex">% <![CDATA[
+ 0<=\lambda<=4  %]]></script>.</p>
+
+<p>The logistic law describes well the dynamics of evolving populations where there is a growth per cycle proportional to <script type="math/tex"> \lambda x(k) </script> with a corrective negative term (feedback) <script type="math/tex"> -\lambda x^2(k) </script> which is proportional to the square of the size already attained by the population.</p>
 </div>
   
   
