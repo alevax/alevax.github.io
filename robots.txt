@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
+Disallow:
 
-Sitemap: http://alevax.github.io/sitemap.xml 
+Sitemap: http://alevax.github.io/sitemap.xml

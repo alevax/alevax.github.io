@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[AV's Ph.D Journal]]></title>
-  <link href="http://alevax.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: System Biology | AV's Ph.D Journal]]></title>
+  <link href="http://alevax.github.io/blog/categories/system-biology/atom.xml" rel="self"/>
   <link href="http://alevax.github.io/"/>
   <updated>2014-09-22T18:17:16+02:00</updated>
   <id>http://alevax.github.io/</id>
