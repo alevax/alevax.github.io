@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-<<<<<<< HEAD
   <title><![CDATA[AV's Ph.S Journal]]></title>
   <link href="http://alevax.github.io/atom.xml" rel="self"/>
   <link href="http://alevax.github.io/"/>
@@ -10,30 +9,8 @@
   <author>
     <name><![CDATA[Ing. Alessandro Vasciaveo]]></name>
     
-=======
-  <title><![CDATA[My Ph.D Journal]]></title>
-  <link href="http://alevax.github.io/atom.xml" rel="self"/>
-  <link href="http://alevax.github.io/"/>
-  <updated>2014-09-20T12:23:14+02:00</updated>
-  <id>http://alevax.github.io/</id>
-  <author>
-    <name><![CDATA[Alessandro Vasciaveo]]></name>
-    <email><![CDATA[alessandro.vasciaveo@polito.it]]></email>
->>>>>>> 852493483b96dc96867828799f5e405cf55e3822
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
-<<<<<<< HEAD
-=======
-  <entry>
-    <title type="html"><![CDATA[Welcome Everybody]]></title>
-    <link href="http://alevax.github.io/blog/2014/09/20/welcome-everybody/"/>
-    <updated>2014-09-20T12:15:14+02:00</updated>
-    <id>http://alevax.github.io/blog/2014/09/20/welcome-everybody</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
->>>>>>> 852493483b96dc96867828799f5e405cf55e3822
 </feed>
