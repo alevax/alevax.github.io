@@ -2,21 +2,50 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   
+<<<<<<< HEAD
   
   <url>
     <loc>http://alevax.github.io/blog/archives/</loc>
     <lastmod>2014-09-22T12:43:57+02:00</lastmod>
+=======
+  <url>
+    <loc>http://alevax.github.io/blog/2014/09/20/welcome-everybody/</loc>
+    
+    <lastmod>2014-09-20T12:15:14+02:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://alevax.github.io/blog/archives/</loc>
+    <lastmod>2014-09-20T12:23:14+02:00</lastmod>
+>>>>>>> 852493483b96dc96867828799f5e405cf55e3822
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://alevax.github.io/</loc>
+<<<<<<< HEAD
     <lastmod>2014-09-22T12:43:57+02:00</lastmod>
+=======
+    <lastmod>2014-09-20T12:23:14+02:00</lastmod>
+>>>>>>> 852493483b96dc96867828799f5e405cf55e3822
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
+<<<<<<< HEAD
+=======
+  <url>
+    <loc>http://alevax.github.io/about/</loc>
+    <lastmod>2014-09-20T12:23:14+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+>>>>>>> 852493483b96dc96867828799f5e405cf55e3822
   
   
 </urlset>
